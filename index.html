@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <title>Frontend Mentor | Tip calculator app</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <header>
+    <h1><span>SPLI</span>TTER</h1>
+  </header>
+
+<div class="container">
+  <div class="container-left">
+    <form class="form-left">
+      <label>Bill</label>
+      <div class="bill">
+       <input class="bill-input"  type="number" placeholder="0">
+       <img src="images/icon-dollar.svg">
+      </div>
+
+      <label> Select Tip %</label>
+      <div class="button-tips">
+        <button value="5%">5%</button>
+        <button value="10%">10%</button>
+        <button value="15%">15%</button>
+        <button value="25%">25%</button>
+        <button value="50%">50%</button>
+        <input type='number' class="custom" placeholder="Custom" value="">
+      </div>
+      <label>Number of People</label>
+      <div class="people">
+        <input type="number" placeholder="0">
+        <img src="images/icon-person.svg">
+      </div>
+    </form>
+  </div>   
+
+  <div class="container-right">
+    <form class="form-right">
+      <div class="test">
+        <div class="span-text">
+        <span class="text-tips">Tip Amount </span>
+         <span class="sub-text"> / spanerson</span>
+      </div>
+        <span class="total number ">$0.00</span>
+
+        <div class="span-text">  
+        <span class="text-tips2">Total</span>
+        <span class="sub-text">/ person</span></div>
+        <span class= 'tips number'>$0.00</span>  
+      </div>
+      <button>Reset</button>
+    </form>
+  </div>
+</div>
+
+  <footer class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">ROMAIN ESQUERRA</a>.
+  </footer>
+  <script src="js/script.js"></script>
+</body>
+</html>
