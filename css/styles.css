@@ -84,31 +84,6 @@ h1 span{
 label{
     color: var(--Grayish-cyan);
 }
-.button-tips  {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 1em;
-}
-.button-tips button{
-    background-color: var(--Very-dark-cyan);
-    color: var(--White);
-    padding: 10px;
-    width: 30%;
-    font-size: 1.2rem;
-    font-family: inherit;
-    border-radius:10px;
-    border: none;
-    font-weight: bold;
-}
-.button-tips button:hover{
-    background-color: var(--Strong-cyan);
-    color: black;
-} 
-button.button-selected {
-    background-color: var(--Strong-cyan);
-}
-
-
 
 .bill{
     position: relative;
@@ -119,30 +94,83 @@ button.button-selected {
 .bill-input:hover{
     border: 2px solid var(--Strong-cyan);
 }
-
+/* .custom:hover{
+    border: 2px solid var(--Strong-cyan); 
+} */
 .people{
     position: relative;
 }
-
+.alert{
+    text-align: end;
+    color: orange;
+}
 img{
     position: absolute;
     left: 5%;
     bottom: 30%;
 }
 
+
+
+.button-tips  {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+    width: 100%;
+}
+
+.buttonRadio:hover{
+    background-color: var(--Strong-cyan);
+    color: black;
+} 
+button.buttonRadio-selected {
+    background-color: var(--Strong-cyan);
+}
+
+
+input[type="radio"].buttonRadio {
+    display: none;
+  }
+
+input[type="radio"].buttonRadio + label {
+    background-color: var(--Very-dark-cyan);
+    color: var(--White);
+    padding: 15px 15px;
+    width: calc(33% - 10px);
+    font-size: 1.2rem;
+    font-family: inherit;
+    border-radius:5px;
+    border: none;
+    font-weight: bold;
+    text-align: center;
+    display: inline-block;
+    box-sizing: border-box;
+}
+input[type="radio"].buttonRadio:checked + label {
+    background-color: var(--Strong-cyan);
+    color: black;
+}
+input[type="radio"].buttonRadio:hover + label {
+    background-color: var(--Strong-cyan);   
+}
+
 .custom{
-    padding: 8px 5px;
-    width: 30%;
+    margin: 0;
+    width: calc(33.33% - 10px);
     text-align: end;
     font-size: 1.2rem;
     font-family: inherit;
     border-radius:10px;
     border: none;   
+    display: inline-block;
+    box-sizing: border-box;
+   
 }
 .custom::placeholder{
     font-size: 1.9rem ;
     color: var(--Dark-grayish-cyan);
     font-weight: bold;
+    text-align: center;
 }
 .form-right{
     display: flex;
@@ -175,6 +203,9 @@ img{
     margin-left: 1.7rem;
     margin-bottom: 3rem; ;
     font-family: inherit;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
 }
 
 .sub-text{
@@ -237,22 +268,41 @@ input:focus {
 
 
 
+@media (max-width: 1800px) {
+    .custom::placeholder{
+        font-size: 1.5rem ;
+    }
+}
+@media (max-width: 1400px) {
+    .number {
+        font-size: 2em;
+    }
+    input[type="radio"].buttonRadio + label  {
+        width: calc(30% - 10px);
+    }
+}
 
+@media (max-width: 1200px) {
+    .container{
+        flex-direction: column;
+        align-items: center;
+        height: 75vh;
+        width: 100vw;
+    }
+    .container-left{
+        width: 90%;
+    }
+    .container-right{
+        width: 90%;
+    }
+}
 
+@media (max-width: 740px) {
+    input[type="radio"].buttonRadio + label  {
+        width: calc(50% - 10px);
+    }
+    .custom{
+        width: calc(50% - 10px);
+    }
 
-
-
-
-
-
-
-
-
-
-
-
-.attribution {
-    
-    
-    
 }
