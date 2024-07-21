@@ -4,7 +4,7 @@ Bienvenue dans le projet de la Calculatrice de Pourboire !  Ce projet est ma ver
 
 ## Démo
 
-Vous pouvez voir une démo en direct de cette application [ici](https://calculette-one.vercel.app/#).
+Vous pouvez voir une démo en direct de mon application [ici](https://calculette-one.vercel.app/#).
 
 ## Fonctionnalités
 
