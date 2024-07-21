@@ -14,7 +14,7 @@ Vous pouvez voir une démo en direct de cette application [ici](https://calculet
 
 ## Screenshots
 
-![Screenshot](URL_DU_SCREENSHOT)
+![Screenshot](./design/desktop-design-completed.jpg)
 
 ## Technologies Utilisées
 
@@ -23,3 +23,13 @@ Vous pouvez voir une démo en direct de cette application [ici](https://calculet
 - **JavaScript** : Logique de calcul et interactivité.
 
 
+## Utilisation
+
+1. Entrez le montant total de la facture.
+2. Choisissez un pourcentage de pourboire à partir des options disponibles ou entrez votre propre pourcentage.
+3. Indiquez le nombre de personnes partageant la facture.
+4. Obtenez le montant du pourboire et le montant par personne en cliquant sur le bouton de calcul.
+
+## Crédits
+- Frontend Mentor pour le challenge inspirant.
+- Votre Nom ou Pseudo pour le développement de ce projet.
