@@ -11,10 +11,7 @@ Vous pouvez voir une démo en direct de cette application [ici](https://calculet
 - **Calcul du pourboire** : Permet de calculer le montant du pourboire en fonction d'un pourcentage sélectionné.
 - **Répartition entre les personnes** : Calcule le montant par personne en fonction du nombre total de personnes.
 - **Interface responsive** : S'adapte à toutes les tailles d'écran pour une utilisation facile sur mobile et desktop.
-
-## Screenshots
-
-![Screenshot](./design/desktop-design-completed.jpg)
+ 
 
 ## Technologies Utilisées
 
