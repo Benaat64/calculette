@@ -29,4 +29,3 @@ Vous pouvez voir une démo en direct de mon application [ici](https://calculette
 
 ## Crédits
 - Frontend Mentor pour le challenge inspirant.
-- Votre Nom ou Pseudo pour le développement de ce projet.
