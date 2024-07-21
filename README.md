@@ -1,6 +1,6 @@
 # Calculatrice de Pourboire
 
-Bienvenue dans le projet de la Calculatrice de Pourboire ! Ce projet est une solution pour le challenge proposé par [Frontend Mentor](https://www.frontendmentor.io/challenges/tip-calculator-app-ugJNGbJUX). Il s'agit d'une application web interactive qui aide les utilisateurs à calculer les pourboires en fonction du montant total de la facture, du pourcentage de pourboire choisi et du nombre de personnes partageant la facture.
+Bienvenue dans le projet de la Calculatrice de Pourboire !  Ce projet est ma version du challenge proposé par [Frontend Mentor](https://www.frontendmentor.io/challenges/tip-calculator-app-ugJNGbJUX). Il s'agit d'une application web interactive qui aide les utilisateurs à calculer les pourboires en fonction du montant total de la facture, du pourcentage de pourboire choisi et du nombre de personnes partageant la facture.
 
 ## Démo
 
